@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/recylerEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_text"
+        android:fontFamily="@font/abril_fatface"
+        android:text="User Email"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <ImageView
+        android:id="@+id/recylerImageView"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_main"></ImageView>
+
+    <TextView
+        android:id="@+id/recylerCommentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/background_text"
+        android:fontFamily="@font/alatsi"
+        android:text="TEXT"></TextView>
+</LinearLayout>
